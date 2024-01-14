@@ -1,0 +1,64 @@
+.body{
+    background-color:coral;
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.Test{
+color: aqua;
+}
+
+.Logo{
+    font-weight: bold;
+    font-size: xx-large;
+    color: aqua;
+}
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900
+
+.noto-sans {
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  // Colour Theory
+
+  .bgGrey{
+    background-color: #B6BBC4;
+
+  }
+
+  .accentBlue{
+    background-color: #31304D;
+  }
+  .fontBlue{
+    color: #161A30;
+  }
+  .CavasWhite{
+    background-color: #F0ECE5;
+  }
+
+  #hero{
+    min-height: 100%;
+  }
+
+  .main{
+    min-height:100%;
+  }
+
+  #hero{
+    min-height: 100%;
+  }
+
+  .brand{
+    font-size:50rem;
+  }

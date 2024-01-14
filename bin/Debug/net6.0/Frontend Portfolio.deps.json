@@ -1,0 +1,145 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Frontend Portfolio/1.0.0": {
+        "dependencies": {
+          "LigerShark.WebOptimizer.Core": "3.0.396",
+          "LigerShark.WebOptimizer.Sass": "3.0.102"
+        },
+        "runtime": {
+          "Frontend Portfolio.dll": {}
+        }
+      },
+      "AdvancedStringBuilder/0.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/AdvancedStringBuilder.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      },
+      "DartSassHost/1.0.1": {
+        "dependencies": {
+          "AdvancedStringBuilder": "0.1.0",
+          "JavaScriptEngineSwitcher.Core": "3.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/DartSassHost.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "JavaScriptEngineSwitcher.Core/3.1.0": {
+        "dependencies": {
+          "AdvancedStringBuilder": "0.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/JavaScriptEngineSwitcher.Core.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/ru-ru/JavaScriptEngineSwitcher.Core.resources.dll": {
+            "locale": "ru-ru"
+          }
+        }
+      },
+      "LigerShark.WebOptimizer.Core/3.0.396": {
+        "dependencies": {
+          "NUglify": "1.20.7",
+          "System.Text.Json": "5.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/WebOptimizer.Core.dll": {
+            "assemblyVersion": "3.0.396.0",
+            "fileVersion": "3.0.396.0"
+          }
+        }
+      },
+      "LigerShark.WebOptimizer.Sass/3.0.102": {
+        "dependencies": {
+          "DartSassHost": "1.0.1",
+          "LigerShark.WebOptimizer.Core": "3.0.396"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/WebOptimizer.Sass.dll": {
+            "assemblyVersion": "3.0.102.0",
+            "fileVersion": "3.0.102.0"
+          }
+        }
+      },
+      "NUglify/1.20.7": {
+        "runtime": {
+          "lib/net5.0/NUglify.dll": {
+            "assemblyVersion": "1.20.7.0",
+            "fileVersion": "1.20.7.0"
+          }
+        }
+      },
+      "System.Text.Json/5.0.2": {}
+    }
+  },
+  "libraries": {
+    "Frontend Portfolio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdvancedStringBuilder/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IbN3r5whlJvi8MhCDPVpIb+NVScyUcKSdcJZrnoXFDyzPDISl3AbWouNBYIHRdZdfGuzqCQEhM1vkxbIKqQVaQ==",
+      "path": "advancedstringbuilder/0.1.0",
+      "hashPath": "advancedstringbuilder.0.1.0.nupkg.sha512"
+    },
+    "DartSassHost/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-koPNo6TZHCiu3JVJ4ay2IRnzgNUhHm5tkHAP9t/PPnO3gqEPo+lfsTwXFvIbdleXSxkryU0AsrVxaSSX8iY1Jw==",
+      "path": "dartsasshost/1.0.1",
+      "hashPath": "dartsasshost.1.0.1.nupkg.sha512"
+    },
+    "JavaScriptEngineSwitcher.Core/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UbyvwC+aSYwV76FDEa/C59lVzgBVdAuP/F4YpNfv+Ev+HllqLBgEhj8Hzo0pAk7uUGQwUxVnQBAtsINMy29ysQ==",
+      "path": "javascriptengineswitcher.core/3.1.0",
+      "hashPath": "javascriptengineswitcher.core.3.1.0.nupkg.sha512"
+    },
+    "LigerShark.WebOptimizer.Core/3.0.396": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ObHaqaQ872iiq+VED+aFzREomptzXkhUR2doFprHlHd6b7/7qOcHRwL6SvWJnxeV1p2ngUy2gAT8uCzT6MsIJA==",
+      "path": "ligershark.weboptimizer.core/3.0.396",
+      "hashPath": "ligershark.weboptimizer.core.3.0.396.nupkg.sha512"
+    },
+    "LigerShark.WebOptimizer.Sass/3.0.102": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dGuMqSX8ApLsldnHr6Ha87m1ydPyUpBWDvzMLHK2tAtV+k9AGaNj1yRaJg52QgXrh6QX/M3rH7bBfd6FPDxhtg==",
+      "path": "ligershark.weboptimizer.sass/3.0.102",
+      "hashPath": "ligershark.weboptimizer.sass.3.0.102.nupkg.sha512"
+    },
+    "NUglify/1.20.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yTbDciM8xsVL5ezTsJtWUlyTbVq3KBEFlYaO1E0VXwnn1KjbjEuH6oU8WzyGVLOUUg4KxWQxAdriO9piveodNw==",
+      "path": "nuglify/1.20.7",
+      "hashPath": "nuglify.1.20.7.nupkg.sha512"
+    },
+    "System.Text.Json/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I47dVIGiV6SfAyppphxqupertT/5oZkYLDCX6vC3HpOI4ZLjyoKAreUoem2ie6G0RbRuFrlqz/PcTQjfb2DOfQ==",
+      "path": "system.text.json/5.0.2",
+      "hashPath": "system.text.json.5.0.2.nupkg.sha512"
+    }
+  }
+}
